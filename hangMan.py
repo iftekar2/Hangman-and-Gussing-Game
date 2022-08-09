@@ -36,6 +36,3 @@ if message == "Y":
     else: 
         print("\nSorry you ran out of tries.")
 
-message = input("Do you want to play again (Y/N): ")
-if message == "Y":
-    failure_count()
